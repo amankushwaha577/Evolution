@@ -37,6 +37,9 @@ I'm thrilled to present my latest project Friend's Spy, A FullStack Social Netwo
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
 - ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
+- - ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `Tailwind CSS`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `BCrypt.js`
+- - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `MongoDB`
 
 
 ### DataBase 
@@ -49,7 +52,7 @@ Mongo DB
 # ONLINE REACHABILITY:
 
 
-TECHNICAL SIDES OF FRIEND'S SPY
+TECHNICAL SIDES OF EVOLUTIONNOVA
 ```sh
 1. A FullStack Social Network Application
 2. Rock Solid Authentication with Password Forgot/Password Reset using JWT
