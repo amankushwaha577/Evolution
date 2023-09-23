@@ -1,7 +1,7 @@
 # ``` EvolutionNova ```
 I'm thrilled to present my latest project Friend's Spy, A FullStack Social Network Application built entirely from scratch. This project represents a culmination of my web development skills and expertise in modern technologies of MERN Stack. It's a comprehensive social network platform with a wide range of features designed to offer users an engaging and interactive experience.
 
-![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/268497276-f3dee07e-c736-4676-a603-a5619a20f66d.gif)
+![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/270110124-9fe12555-8416-4a20-88a2-2a05eb2dd484.gif)
  
  
 
