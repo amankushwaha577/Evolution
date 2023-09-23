@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import signUpBanner from "../../assets/singup.svg";
+import signUpBanner from "../../assets/signup.gif";
 import Image from "next/image";
 import { toast } from "react-toastify";
 import { signUp } from "@/services/userService";
@@ -79,7 +79,6 @@ const Signup = () => {
               }}
             />
           </div>
-          <h1 className="text-3xl text-center">Signup Here </h1>
           <form action="#!" className="mt-5" onSubmit={doSignup}>
             {/* name */}
             <div className="mt-3">
