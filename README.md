@@ -1,5 +1,5 @@
 # ``` EvolutionNova ```
-I'm thrilled to present my latest project Friend's Spy, A FullStack Social Network Application built entirely from scratch. This project represents a culmination of my web development skills and expertise in modern technologies of MERN Stack. It's a comprehensive social network platform with a wide range of features designed to offer users an engaging and interactive experience.
+I developed EvolutionNova, a user-friendly Diary Application, as a personal project. This initiative showcased tilizing technologies like React and Tailwind CSS for a modern interface, Node.js and MongoDB for robust backend functionality, and Next.js for enhanced performance. I prioritized user data security with BCrypt.js and ensured a smooth user experience. 
 
 ![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/270110840-ff256381-cac6-4f15-8bc4-a5a0979b4fc5.gif)
  
