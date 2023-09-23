@@ -34,7 +34,7 @@ const CustomNavbar = () => {
     <Image
       src={logo} // Replace with your actual image path
       alt="Work Manager Logo"
-      width={130} // Adjust width as needed
+      width={140} // Adjust width as needed
       height={20} // Adjust height as needed
     />
 

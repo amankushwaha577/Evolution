@@ -4,7 +4,7 @@ import bannerImage from "../../assets/home.gif";
 import Image from "next/image";
 const BannerSection = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
+    <div className="text-white p-4">
       <div className="container mx-auto flex items-center justify-around py-5">
         <div className="mr-4">
           <Image
