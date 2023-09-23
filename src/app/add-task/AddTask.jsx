@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import loginSvg from "../../assets/login.svg";
+import loginSvg from "../../assets/home.gif";
 import Image from "next/image";
 import { addTask } from "@/services/taskService";
 import { taost, toast } from "react-toastify";
@@ -52,7 +52,7 @@ const AddTask = () => {
             alt="Login banner"
           />
         </div>
-        <h1 className="text-3xl text-center">Add your task here </h1>
+        <h1 className="text-3xl text-center">Fill Your Diary</h1>
 
         <form action="#!" onSubmit={handleAddTask}>
           {/* task title  */}
@@ -110,7 +110,7 @@ const AddTask = () => {
             </label>
             <select
               id="task_status"
-              className="w-full p-3 rounded-3xl bg-gray-800 focus:ring-gray-400-100 border border-gray-800"
+              className="w-full p-3 rounded-3xl bg-gradient-to-r from-purple-500 to-blue-500 focus:ring-purple-400-100 border border-purple-400 text-white"
               name="task_status"
               onChange={(event) => {
                 setTask({
