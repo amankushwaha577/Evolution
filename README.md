@@ -36,7 +36,6 @@ I'm thrilled to present my latest project Friend's Spy, A FullStack Social Netwo
 - ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `NEXT.js`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `HTML5, CSS3 and Bootstrap4`
-- ![#5DF20D](https://via.placeholder.com/15/f03c15/000000?text=+) `Socket.io`
 - ![#c2E010](https://via.placeholder.com/15/c5f015/000000?text=+) `Tailwind CSS`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `BCrypt.js`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `MongoDB`
@@ -54,22 +53,16 @@ Mongo DB
 
 TECHNICAL SIDES OF EVOLUTIONNOVA
 ```sh
-1. A FullStack Social Network Application
-2. Rock Solid Authentication with Password Forgot/Password Reset using JWT
-3. Application LogIn using JWT
-4. POST CRUD Operations [ Users ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
-                                    Post like and unlike | User follow and unfollow |
-                                    User Posts Relationships
-   POST CRUD Operations [ Admin ] : Post Upload,Update,Delete | Comment on Post, Comment on Post Delete |
-                                    Post like and unlike | Admin follow and unfollow |
-                                    Admin Posts Relationships
-                                                                  +
-                                    Update or Delete anyone-s Post | Update or Delete any User
-5. Custom reCAPTCHA
-6. Real Time Communication using Socket.io
-7. Secure DataBase Using MongoDB Database.
-8. Node.js API development for Backend Tool.
-9. SEO (Server Side Rendering) with NextJs
+1. React: Utilized React for building the user interface, enabling a dynamic and responsive user experience.
+2. Tailwind CSS: Employed Tailwind CSS for efficient and customizable styling, resulting in a clean and modern UI design.
+3. Node.js: Developed the server-side logic using Node.js, ensuring smooth communication between the frontend and backend.
+4. MongoDB: Implemented MongoDB as the database system, enabling efficient data storage and retrieval for tasks and
+            user information.
+5. Next.js: Leveraged Next.js for server-side rendering and improved performance, enhancing the overall user experience.
+6. BCrypt.js: Integrated BCrypt.js for secure password hashing and authentication, prioritizing user data protection.
+7. HTML and CSS: Created structured and visually appealing web pages using HTML and CSS for precise control over
+            the layout and styling.
+
 
 ```
 
