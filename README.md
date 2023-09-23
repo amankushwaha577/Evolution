@@ -5,27 +5,16 @@ I developed EvolutionNova, a user-friendly Diary Application, as a personal proj
  
  
 
-   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1. Authentication and Authorization: I've implemented a rock-solid authentication system, including password reset functionality using JWT (JSON Web Tokens). This ensures that user accounts are secure and accessible only by authorized individuals.`
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1. Designed a user-friendly interface for creating, and managing diary.`
 
   -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `2. Social Login: Users can conveniently sign in using their social media accounts, thanks to the integration of JWT for secure authentication.`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `3. CRUD Operations: The application allows users to perform Create, Read, Update, and Delete operations on their posts and comments.`
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `3. Added secure login and data protection features.`
    
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `4. Image Upload: Users can upload images to personalize their posts and profiles, enhancing the visual appeal of the platform.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `4. Applied modern web development techniques for better performance.`
 
-   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `5. User Relationships: The platform supports user-to-user relationships, including following and unfollowing, enabling users to curate their feeds.`
 
-  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `6. Likes and Comments: Users can engage with posts through likes and comments, fostering interaction and community building.`
 
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `7. Super Admin Access: I've implemented role-based access control, with a Super Admin role to manage users, content, and platform settings.`
-    
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `8. Custom reCAPTCHA: To enhance security, custom reCAPTCHA has been integrated to protect against automated threats.`
-    
- -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `9.Pagination: Efficient pagination systems have been incorporated to handle large datasets gracefully, providing users with seamless browsing experiences.`
-
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `10.Real-Time Communication: The application supports real-time messaging and notifications to keep users engaged and informed.`
-    
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `11.SEO Optimization: SEO best practices have been applied to improve the platform's search engine visibility, attracting more users.`
 
 <br><br> 
 
