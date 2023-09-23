@@ -6,23 +6,18 @@ const FeatureSection = () => {
     <div className="bg-blue-500 text-white py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-center mb-8">
-          Features of Task Manager
+          Features of EvolutionNova
         </h2>
         <div className="flex flex-wrap justify-center -mx-4">
           <FeatureCard
             icon={<FiCheckCircle className="text-white w-8 h-8" />}
-            title="Easy Task Management"
-            description="Organize your tasks effortlessly using our intuitive task management system."
+            title="Easy Sign In and Sign Up"
+            description="Authentication systems using MongoDB, Where users can create accounts and log in securely using EvolutionNova management system."
           />
           <FeatureCard
             icon={<FiList className="text-white w-8 h-8" />}
-            title="Task Categories"
-            description="Categorize your tasks into different categories for better organization."
-          />
-          <FeatureCard
-            icon={<FiCalendar className="text-white w-8 h-8" />}
-            title="Due Date Reminders"
-            description="Set due date reminders to stay on top of your tasks and deadlines."
+            title="Target Status"
+            description="Mark your target into Upcoming/Done categories for better organization."
           />
         </div>
       </div>

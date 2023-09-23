@@ -18,7 +18,7 @@ const BannerSection = () => {
             Welcome to EvolutionNova
           </h1>
           <p className="text-xl mb-8">
-            Organize Your Diary With Our Application.
+            Organize Your Daily Diary With Our Application.
           </p>
           <button
             className="bg-white text-blue-500 px-4 py-2 mt-4 rounded-md shadow-md hover:shadow-lg transition duration-300"
