@@ -42,7 +42,8 @@ Mongo DB
 
 TECHNICAL SIDES OF EVOLUTIONNOVA
 ```sh
-1. React: Utilized React for building the user interface, enabling a dynamic and responsive user experience.
+1. React: Utilized React for building the user interface, enabling a dynamic and responsive user
+   experience.
 2. Tailwind CSS: Employed Tailwind CSS for efficient and customizable styling, resulting in a clean and
    modern UI design.
 3. Node.js: Developed the server-side logic using Node.js, ensuring smooth communication between the
