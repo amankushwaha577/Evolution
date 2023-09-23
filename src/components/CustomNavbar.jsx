@@ -34,7 +34,7 @@ const CustomNavbar = () => {
     <Image
       src={logo} // Replace with your actual image path
       alt="Logo"
-      width={140} // Adjust width as needed
+      width={150} // Adjust width as needed
       height={20} // Adjust height as needed
     />
 
