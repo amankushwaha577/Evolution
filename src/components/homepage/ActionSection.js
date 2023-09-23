@@ -4,8 +4,8 @@ import imageBanner from "../../assets/singup.svg";
 import Image from "next/image";
 const ActionSection = () => {
   return (
-    <div className="relative bg-blue-500 text-white py-20">
-      <div className="absolute top-0 left-0 w-full h-full z-10 bg-opacity-70 bg-blue-500"></div>
+    <div className="relative bg-purple-500 text-white py-20">
+      <div className="absolute top-0 left-0 w-full h-full z-10 bg-opacity-70 bg-purple-500"></div>
       <div className="container mx-auto text-center relative z-20">
         <h2 className="text-3xl font-semibold text-center mb-8">
           Take Control of Your Tasks
