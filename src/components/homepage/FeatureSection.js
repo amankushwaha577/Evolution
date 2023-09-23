@@ -28,12 +28,13 @@ const FeatureSection = () => {
 const FeatureCard = ({ icon, title, description }) => {
   return (
     <div className="w-full md:w-1/3 px-4 mb-8">
-      <div className="bg-blue-700 rounded-lg p-6 flex items-center justify-center flex-col h-full">
-        <div className="mb-4">{icon}</div>
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-white text-center">{description}</p>
-      </div>
-    </div>
+  <div className="bg-gradient-to-r from-red-500 to-yellow-500 rounded-lg p-6 flex items-center justify-center flex-col h-full">
+    <div className="mb-4">{icon}</div>
+    <h3 className="text-xl font-semibold mb-2 text-white"> {title} </h3>
+    <p className="text-white text-center">{description}</p>
+  </div>
+</div>
+
   );
 };
 
