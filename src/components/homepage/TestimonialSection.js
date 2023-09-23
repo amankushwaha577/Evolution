@@ -10,14 +10,14 @@ const testimonials = [
     name: "Amrit",
     designation: "CEO, Paras Tierea",
     message:
-      "It was a great experience with EvolutionNova.",
+      "Great experience with EvolutionNova.",
   },
   {
     id: 2,
     name: "Bhagwat",
     designation: "Manager, Paras Tierea",
     message:
-      "Superb.",
+      "Superb Great experience with EvolutionNova",
   },
   {
     id: 3,
@@ -31,14 +31,14 @@ const testimonials = [
     name: "Rajesh",
     designation: "CTO, PQR Ltd.",
     message:
-      "Amazing",
+      "Amazing, Good Application with amazing feature",
   },
   {
     id: 3,
     name: "Anugrah",
     designation: "CTO, PQR Ltd.",
     message:
-      "Superb",
+      "Superb Great experience with EvolutionNova",
   },
   // Add more testimonials as needed
 ];
