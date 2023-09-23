@@ -11,7 +11,7 @@ const ActionSection = () => {
           Update Your Diary Daily
         </h2>
         <p className="text-xl text-center mb-8">
-          Start managing your tasks efficiently with our task manager app.
+          Start managing your tasks efficiently with our EvolutionNova app.
         </p>
         <button
           className="bg-white text-blue-500 py-3 px-6 rounded-md shadow-md hover:shadow-lg transition duration-300"
