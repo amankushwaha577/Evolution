@@ -7,45 +7,38 @@ import "slick-carousel/slick/slick-theme.css";
 const testimonials = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "CEO, ABC Inc.",
+    name: "Amrit",
+    designation: "CEO, Paras Tierea",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lobortis justo. Proin mollis scelerisque ex.",
+      "It was a great experience with EvolutionNova.",
   },
   {
     id: 2,
-    name: "Jane Smith",
-    designation: "Manager, XYZ Corp.",
+    name: "Bhagwat",
+    designation: "Manager, Paras Tierea",
     message:
-      "Fusce volutpat tortor sit amet massa sagittis, ac iaculis odio congue. Nam maximus vestibulum lorem.",
+      "Superb.",
   },
   {
     id: 3,
-    name: "Michael Johnson",
-    designation: "CTO, PQR Ltd.",
+    name: "Ankit",
+    designation: "Chief Manager, Paras Tierea",
     message:
-      "Nullam non mauris nec arcu posuere fermentum. Aliquam id orci vel elit accumsan gravida.",
+      "Cool",
   },
   {
     id: 3,
-    name: "Michael Johnson",
+    name: "Rajesh",
     designation: "CTO, PQR Ltd.",
     message:
-      "Nullam non mauris nec arcu posuere fermentum. Aliquam id orci vel elit accumsan gravida.",
+      "Amazing",
   },
   {
     id: 3,
-    name: "Michael Johnson",
+    name: "Anugrah",
     designation: "CTO, PQR Ltd.",
     message:
-      "Nullam non mauris nec arcu posuere fermentum. Aliquam id orci vel elit accumsan gravida.",
-  },
-  {
-    id: 3,
-    name: "Michael Johnson",
-    designation: "CTO, PQR Ltd.",
-    message:
-      "Nullam non mauris nec arcu posuere fermentum. Aliquam id orci vel elit accumsan gravida.",
+      "Superb",
   },
   // Add more testimonials as needed
 ];

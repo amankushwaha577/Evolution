@@ -8,7 +8,7 @@ const ActionSection = () => {
       <div className="absolute top-0 left-0 w-full h-full z-10 bg-opacity-70"></div>
       <div className="container mx-auto text-center relative z-20">
         <h2 className="text-3xl font-semibold text-center mb-8">
-          Take Control of Your Tasks
+          Update Your Diary Daily
         </h2>
         <p className="text-xl text-center mb-8">
           Start managing your tasks efficiently with our task manager app.
