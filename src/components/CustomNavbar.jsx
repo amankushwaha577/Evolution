@@ -50,12 +50,12 @@ const CustomNavbar = () => {
           </li>
           <li>
             <Link href="/add-task" className="hover:text-blue-200">
-              Add Task
+              Write Notes
             </Link>
           </li>
           <li>
             <Link href={"/show-tasks"} className="hover:text-blue-200">
-              Show Tasks
+              Show Notes
             </Link>
           </li>
         </>
