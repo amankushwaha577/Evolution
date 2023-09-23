@@ -54,14 +54,18 @@ Mongo DB
 TECHNICAL SIDES OF EVOLUTIONNOVA
 ```sh
 1. React: Utilized React for building the user interface, enabling a dynamic and responsive user experience.
-2. Tailwind CSS: Employed Tailwind CSS for efficient and customizable styling, resulting in a clean and modern UI design.
-3. Node.js: Developed the server-side logic using Node.js, ensuring smooth communication between the frontend and backend.
-4. MongoDB: Implemented MongoDB as the database system, enabling efficient data storage and retrieval for tasks and
-            user information.
-5. Next.js: Leveraged Next.js for server-side rendering and improved performance, enhancing the overall user experience.
-6. BCrypt.js: Integrated BCrypt.js for secure password hashing and authentication, prioritizing user data protection.
-7. HTML and CSS: Created structured and visually appealing web pages using HTML and CSS for precise control over
-            the layout and styling.
+2. Tailwind CSS: Employed Tailwind CSS for efficient and customizable styling, resulting in a clean and
+   modern UI design.
+3. Node.js: Developed the server-side logic using Node.js, ensuring smooth communication between the
+   frontend and backend.
+4. MongoDB: Implemented MongoDB as the database system, enabling efficient data storage and retrieval for
+   tasks and user information.
+5. Next.js: Leveraged Next.js for server-side rendering and improved performance, enhancing the overall
+   user experience.
+6. BCrypt.js: Integrated BCrypt.js for secure password hashing and authentication, prioritizing user
+   data protection.
+7. HTML and CSS: Created structured and visually appealing web pages using HTML and CSS for precise
+   control over the layout and styling.
 
 
 ```
