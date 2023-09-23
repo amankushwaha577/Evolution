@@ -38,19 +38,27 @@ const ShowTasks = () => {
   }
 
   return (
-    <div className="grid grid-cols-12 mt-3">
-      <div className="col-span-6 col-start-4">
-        <h1 className="text-3xl mb-3 ">Your tasks ( {tasks.length} )</h1>
-
-        {tasks.map((task) => (
-          <Task
-            task={task}
-            key={task._id}
-            deleteTaskParent={deleteTaskParent}
-          />
-        ))}
+    <div className="grid grid-cols-12 mt-5">
+    <div className="col-span-12 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4">
+      <div className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 text-white rounded-lg p-4 shadow-lg transform hover:scale-105 transition-transform duration-300">
+        <h1 className="text-4xl font-extrabold mb-4">🚀 Your Diary = {tasks.length} 🚀</h1>
+  
+        {tasks.length === 0 ? (
+          <p className="text-xl">No tasks found. Keep soaring high!</p>
+        ) : (
+          <ul className="space-y-4">
+            {tasks.map((task) => (
+              <Task
+                task={task}
+                key={task._id}
+                deleteTaskParent={deleteTaskParent}
+              />
+            ))}
+          </ul>
+        )}
       </div>
     </div>
+  </div>
   );
 };
 
