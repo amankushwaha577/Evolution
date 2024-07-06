@@ -28,7 +28,7 @@ const Login = () => {
       console.log(result);
       toast.success("Logged In");
       context.setUser(result.user);
-      router.push("/");
+      router.push("/");  // push to most outer page.js
     } catch (error) {
       console.log(error);
       toast.error(error.response.data.message, {
