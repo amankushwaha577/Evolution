@@ -1,39 +1,34 @@
 import UserContext from "@/context/userContext";
 import React, { useContext } from "react";
-import { RxCross1 } from "react-icons/rx";
+import { RiCloseCircleLine } from "react-icons/ri";
+
 const Task = ({ task, deleteTaskParent }) => {
   const { user } = useContext(UserContext);
 
   function deleteTask(taskId) {
-    // ....
+    // Delegate deletion to parent component
     deleteTaskParent(taskId);
   }
 
   return (
-    <div
-      className={` shadow-lg mt-2 rounded-md ${
-        task.status == "completed" ? "bg-green-800" : "bg-gray-800"
-      }`}
-    >
-      <div className="p-5">
-        <div className="flex justify-between">
-          <h1 className="text-2xl font-semibold">{task.title}</h1>
-          <span
-            onClick={() => {
-              deleteTask(task._id);
-            }}
-            className="shadow-lg hover:bg-gray-900 bg-gray-950 rounded-full w-9 h-9 flex justify-center items-center cursor-pointer "
+    <div className="bg-gray-900 rounded-lg overflow-hidden shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
+      <div className="p-6">
+        <div className="flex justify-between items-center">
+          <h1 className="text-xl font-bold text-white">{task.title}</h1>
+          <button
+            onClick={() => deleteTask(task._id)}
+            className="bg-red-600 rounded-full p-2 focus:outline-none hover:bg-red-700 transition duration-300"
           >
-            <RxCross1 />
-          </span>
+            <RiCloseCircleLine className="text-white" />
+          </button>
         </div>
-        <p className="font-normal">{task.content}</p>
-        <div className="flex justify-between mt-3">
-          <p className="text-left">
-            Status: <span className="font-bold">{task.status}</span>
+        <p className="text-gray-400 mt-2">{task.content}</p>
+        <div className="flex justify-between mt-4">
+          <p className="text-left text-gray-300">
+            Status: <span className="font-semibold">{task.status}</span>
           </p>
-          <p className="text-right">
-            Author: <span className="font-bold">{user?.name}</span>
+          <p className="text-right text-gray-300">
+            Author: <span className="font-semibold">{user?.name}</span>
           </p>
         </div>
       </div>

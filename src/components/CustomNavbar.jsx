@@ -27,7 +27,7 @@ const CustomNavbar = () => {
   }
 
   return (
-    <nav className="h-16 py-2 px-8 md:px-36 flex justify-between items-center bg-black text-white shadow-md">
+    <nav className="h-16 py-2 px-8 md:px-36 flex justify-between items-center bg-black text-white shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="brand flex items-center">
         <Image
           src={logo}
