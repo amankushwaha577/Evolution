@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import React, { useContext } from "react";
 import { toast } from "react-toastify";
 import Image from "next/image";
+import { FiHome, FiEdit, FiEye, FiUser, FiLogOut, FiLogIn, FiUserPlus } from "react-icons/fi";
 import logo from "../assets/logo.png";
 
 const CustomNavbar = () => {
@@ -31,8 +32,9 @@ const CustomNavbar = () => {
         <Image
           src={logo}
           alt="Logo"
-          width={120} // Adjust width as needed
-          height={40} // Adjust height as needed
+          width={120}
+          height={40}
+          className="cursor-pointer"
         />
       </div>
       <div>
@@ -40,18 +42,18 @@ const CustomNavbar = () => {
           {context.user && (
             <>
               <li>
-                <Link href="/" className="hover:text-blue-400 transition duration-300">
-                  Home
+                <Link href="/" className="flex items-center hover:text-blue-400 transition duration-300">
+                  <FiHome className="mr-1 text-xl" /> Home
                 </Link>
               </li>
               <li>
-                <Link href="/add-task" className="hover:text-blue-400 transition duration-300">
-                  Write Notes
+                <Link href="/add-task" className="flex items-center hover:text-blue-400 transition duration-300">
+                  <FiEdit className="mr-1 text-xl" /> Write Notes
                 </Link>
               </li>
               <li>
-                <Link href="/show-tasks" className="hover:text-blue-400 transition duration-300">
-                  Show Notes
+                <Link href="/show-tasks" className="flex items-center hover:text-blue-400 transition duration-300">
+                  <FiEye className="mr-1 text-xl" /> Show Notes
                 </Link>
               </li>
             </>
@@ -62,17 +64,17 @@ const CustomNavbar = () => {
         <ul className="flex space-x-3 text-sm md:text-base">
           {context.user && (
             <>
-              <li>
-                <Link href="#!" className="hover:text-blue-400 transition duration-300">
-                  {context.user.name}
+              <li className="flex items-center">
+                <Link href="#!" className="flex items-center hover:text-blue-400 transition duration-300">
+                  <FiUser className="mr-1 text-xl" /> {context.user.name}
                 </Link>
               </li>
               <li>
                 <button
                   onClick={doLogout}
-                  className="px-3 py-1 bg-red-600 text-white rounded-md hover:bg-red-500 transition duration-300"
+                  className="px-3 py-1 bg-red-600 text-white rounded-md flex items-center hover:bg-red-500 transition duration-300"
                 >
-                  Logout
+                  <FiLogOut className="mr-1 text-xl" /> Logout
                 </button>
               </li>
             </>
@@ -80,13 +82,13 @@ const CustomNavbar = () => {
           {!context.user && (
             <>
               <li>
-                <Link href="/login" className="hover:text-blue-400 transition duration-300">
-                  Login
+                <Link href="/login" className="flex items-center hover:text-blue-400 transition duration-300">
+                  <FiLogIn className="mr-1 text-xl" /> Login
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="hover:text-blue-400 transition duration-300">
-                  Signup
+                <Link href="/signup" className="flex items-center hover:text-blue-400 transition duration-300">
+                  <FiUserPlus className="mr-1 text-xl" /> Signup
                 </Link>
               </li>
             </>
