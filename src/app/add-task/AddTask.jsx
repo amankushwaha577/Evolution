@@ -10,14 +10,15 @@ const AddTask = () => {
     title: "",
     content: "",
     status: "none",
-    // temp solution
     userId: "64a506ab413f1d5bcafcdbec",
   });
+
+  const [isOpen, setIsOpen] = useState(false); // State to track if select dropdown is open
 
   const handleAddTask = async (event) => {
     event.preventDefault();
     console.log(task);
-    // validate task data
+
     try {
       const result = await addTask(task);
       console.log(result);
@@ -53,9 +54,9 @@ const AddTask = () => {
             />
           </div>
         </div>
-        
+
         {/* Form Section */}
-        <div className="col-span-1 md:col-span-1 p-5 shadow-md rounded-lg bg-gray-800 text-white mt-8 md:mt-0">
+        <div className="col-span-1 md:col-span-1 p-5 shadow-md rounded-lg bg-gray-800 text-white">
           <h1 className="text-3xl text-center font-bold mb-4">Fill Your Diary</h1>
 
           <form onSubmit={handleAddTask} className="space-y-4">
@@ -98,17 +99,23 @@ const AddTask = () => {
               </label>
               <select
                 id="task_status"
-                className="w-full p-3 rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 focus:ring-purple-400 border border-purple-400 text-white"
+                className={`w-full p-3 rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 focus:ring-purple-400 border border-purple-400 text-white ${isOpen ? 'text-black' : ''}`}
                 name="task_status"
                 onChange={(event) => setTask({ ...task, status: event.target.value })}
                 value={task.status}
                 required
+                onFocus={() => setIsOpen(true)}
+                onBlur={() => setIsOpen(false)}
               >
                 <option value="none" disabled>
                   ---Select Status---
                 </option>
-                <option value="pending">Pending</option>
-                <option value="completed">Completed</option>
+                <option value="pending" className="text-black">
+                  Pending
+                </option>
+                <option value="completed" className="text-black">
+                  Completed
+                </option>
               </select>
             </div>
 
