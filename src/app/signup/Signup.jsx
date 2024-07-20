@@ -63,7 +63,7 @@ const Signup = () => {
       <div className="grid grid-cols-12">
         <div className="col-span-4 col-start-5">
           <div className="py-5">
-            <form action="#!" className="mt-5 bg-white rounded-lg shadow-lg p-8">
+            <form onSubmit={doSignup} className="mt-5 bg-white rounded-lg shadow-lg p-8">
               <div className="mt-5">
                 <label htmlFor="user_name" className="block text-sm font-medium mb-2 text-gray-900">
                   Username
