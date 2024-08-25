@@ -4,7 +4,7 @@ I developed EvolutionNova, a user-friendly Diary Application, as a personal proj
 ![Webp net-gifmaker](https://user-images.githubusercontent.com/53748350/270110840-ff256381-cac6-4f15-8bc4-a5a0979b4fc5.gif) 
    
                
-        
+          
    - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1. Created EvolutionNova, a user-friendly task management app, to demonstrate web development skills.`
 
   -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `2. Social Login: Users can conveniently sign in using their social media accounts, thanks to the integration of JWT for secure authentication.`
