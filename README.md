@@ -13,7 +13,7 @@ I developed EvolutionNova, a user-friendly Diary Application, as a personal proj
    
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `4. EvolutionNova serves as a tangible example of my commitment to delivering practical and secure digital solutions, contributing to my growing of successful web development projects.`
 
-  
+    
   
 
 <br><br> 
